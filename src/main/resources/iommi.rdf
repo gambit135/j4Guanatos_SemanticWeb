@@ -1,0 +1,6 @@
+<foaf:Person rdf:about="#iommi" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <foaf:name>Tony Iommi</foaf:name>
+  <foaf:homepage rdf:resource="http://iommi.com/" />
+  <foaf:openid rdf:resource="http://iommi.com" />
+  <foaf:img rdf:resource="https://upload.wikimedia.org/wikipedia/commons/d/dc/Tony-Iommi_2009-06-11_Chicago_photoby_Adam-Bielawski.jpg" />
+</foaf:Person>

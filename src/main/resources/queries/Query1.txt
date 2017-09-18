@@ -1,0 +1,9 @@
+# Example Query 1
+
+prefix dbpo: <http://dbpedia.org/ontology/> 
+prefix dbpr: <http://dbpedia.org/resource/>
+
+select distinct ?Predicate ?Object where {
+  ?Subject ?Predicate ?Object  
+  filter(?Subject = dbpr:Nelson_Mandela)
+}

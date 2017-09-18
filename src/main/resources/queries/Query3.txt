@@ -1,0 +1,8 @@
+# Example Query 3
+prefix dbpo: <http://dbpedia.org/ontology/> 
+prefix dbpr: <http://dbpedia.org/resource/>
+
+select ?Predicate ?Object where {
+  ?Subject dbpo:abstract ?Object  
+  filter(?Subject = dbpr:Markiplier && langMatches( lang(?Object), "EN" ))
+}
